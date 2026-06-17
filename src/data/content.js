@@ -9,7 +9,7 @@ const images = {
 export const hero = {
   eyebrow: 'Porto Nacional · Tocantins',
   title: 'Tina Aires',
-  subtitle: 'Psicopedagogia, Terapia e Desenvolvimento Humano',
+  subtitle: 'Neuropsicopedagogia, Terapia e Desenvolvimento Humano',
   body: 'Saúde com profundidade humana. Mais de 20 anos cuidando de pessoas — com técnica onde é preciso, com afeto onde importa.',
   ctaPrimary: 'Falar no WhatsApp',
   ctaSecondary: 'Áreas de atuação',
