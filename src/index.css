@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Esconde a scrollbar nativa — substituída pela linha de progresso custom */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+
+  body {
+    margin: 0;
+    background-color: theme('colors.cream');
+    color: theme('colors.ink');
+    font-family: theme('fontFamily.sans');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Offset para âncoras não ficarem escondidas atrás da navbar fixa */
+  section[id] {
+    scroll-margin-top: 80px;
+  }
+}
